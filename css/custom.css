@@ -8,22 +8,40 @@ body {
 }
 
 .main-section.service {
-	background:url(../img/billboard.jpg) center center no-repeat;
+	background:url(../img/billboard2.jpg) center center no-repeat;
     background-size:cover;
-	padding-top: 100px;
+	padding-top: 138px;
     padding-bottom: 160px;
 	text-align:center;
 }
 
+.main-section.service .service-list {
+}
+
 .main-section.service h3 {
-    font-size: 30px;
-    color: #fff
+    font-size: 34px;
+    color: #171717;
 }
 
 .main-section.service p {
-    color: #fff
+    color: #171717;
+    font-size: 16px;
 }
 
 .main-section.service h4 {
-    color: #fff
+    color: #171717;
+}
+
+ a {
+    color: #981723;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #171717;
+    text-decoration: none;
+}
+
+.main-section.service a:hover {
+    color: #fff;
 }
